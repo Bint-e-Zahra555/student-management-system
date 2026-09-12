@@ -80,5 +80,5 @@ run covering add, view, search, update, delete, validation, and exit.
 - [x] JSON file handling
 - [x] Input validation and error handling
 - [x] Automated tests
-- [ ] Push this folder to GitHub and add the repository URL
+- [x] Push this folder to GitHub: <https://github.com/Bint-e-Zahra555/student-management-system>
 - [x] Include a screenshot and demonstration transcript
