@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1f2937"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="820" fill="#e5e7eb"/>
+  <rect x="80" y="55" width="1240" height="710" rx="18" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="80" y="55" width="1240" height="58" rx="18" fill="#374151"/>
+  <circle cx="116" cy="84" r="9" fill="#ef4444"/>
+  <circle cx="145" cy="84" r="9" fill="#f59e0b"/>
+  <circle cx="174" cy="84" r="9" fill="#22c55e"/>
+  <text x="700" y="91" fill="#d1d5db" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">student_management.py — terminal demo</text>
+
+  <text x="125" y="154" fill="#93c5fd" font-family="monospace" font-size="21">$ python student_management.py</text>
+  <text x="125" y="193" fill="#9ca3af" font-family="monospace" font-size="18">Data file: students.json</text>
+
+  <text x="125" y="244" fill="#f9fafb" font-family="monospace" font-size="22">================ Student Management System ================</text>
+  <text x="125" y="282" fill="#d1d5db" font-family="monospace" font-size="20">1. Add student</text>
+  <text x="125" y="314" fill="#d1d5db" font-family="monospace" font-size="20">2. View all students</text>
+  <text x="125" y="346" fill="#d1d5db" font-family="monospace" font-size="20">3. Search students</text>
+  <text x="125" y="378" fill="#d1d5db" font-family="monospace" font-size="20">4. Update student</text>
+  <text x="125" y="410" fill="#d1d5db" font-family="monospace" font-size="20">5. Delete student</text>
+  <text x="125" y="442" fill="#d1d5db" font-family="monospace" font-size="20">6. Exit</text>
+
+  <rect x="105" y="470" width="1190" height="220" rx="10" fill="#0b1220" stroke="#374151" stroke-width="2"/>
+  <text x="130" y="508" fill="#93c5fd" font-family="monospace" font-size="20">Choose an option (1-6): 2</text>
+  <text x="130" y="548" fill="#f9fafb" font-family="monospace" font-size="20">ID   | Name        | Age | Email              | Course</text>
+  <text x="130" y="578" fill="#6b7280" font-family="monospace" font-size="20">-----+-------------+-----+--------------------+------------</text>
+  <text x="130" y="608" fill="#86efac" font-family="monospace" font-size="20">S001 | Ayesha Khan | 20  | ayesha@example.com | Data Science</text>
+  <text x="130" y="650" fill="#d1d5db" font-family="monospace" font-size="20">1 record(s) shown.</text>
+  <text x="130" y="682" fill="#9ca3af" font-family="monospace" font-size="18">JSON persistence • validation • CRUD operations</text>
+</svg>
